@@ -5,7 +5,7 @@ import logo from '../assets/logo.svg'
 import Links from '../constants/links'
 import SocialLinks from '../constants/socialLinks'
 const Navbar = () => {
-  return <h4>navbar component</h4>
+  return <h4>navbar component on gh-pages</h4>
 }
 
 export default Navbar

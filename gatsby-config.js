@@ -6,6 +6,7 @@
 
 module.exports = {
   /* Your site config here */
+  pathPrefix: '/g-blog',
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
