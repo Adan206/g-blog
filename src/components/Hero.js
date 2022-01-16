@@ -3,7 +3,9 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 const Hero = () => {
   return (
-    <h4>hero component</h4>
+    <header className="hero">
+      <StaticImage />
+    </header>
   )
 }
 

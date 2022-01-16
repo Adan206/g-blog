@@ -1,10 +1,11 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { FaBars } from 'react-icons/fa'
+
 import logo from '../assets/logo.svg'
 import Links from '../constants/links'
 import SocialLinks from '../constants/socialLinks'
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
   return (
     <nav className="navbar">
       <div className="nav-center">
@@ -12,7 +13,7 @@ const Navbar = () => {
           <Link to="/" className="nav-logo">
             <h3>MyGatBlog</h3>
           </Link>
-          <button className="toggle-btn">
+          <button className="toggle-btn" onClick={toggle}>
             <FaBars />
           </button>
         </div>
